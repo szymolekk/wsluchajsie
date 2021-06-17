@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+.tekst {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+@keyframes bgcolor {
+    0% {
+        background-color: #0095ff
+    }
+
+    15% {
+        background-color: #922092
+    }
+
+    30% {
+        background-color: #08b92f
+    }
+
+    45% {
+        background-color: rgb(112, 5, 64)
+    }
+
+    60% {
+        background-color: #b3b603
+    }
+
+    75% {
+        background-color: #ff0080;
+    }
+
+    90% {
+        background-color: rgb(11, 214, 102);
+    }
+    
+    100% {
+        background-color: rgb(219, 199, 15);
+    }
+
+
+
+
+
+}
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.humor {
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-60% , -50%);
+}
+.audio {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+
+}
+.tworca {
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    transform: translateY(-100%);
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.zmiany {
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute;
+}
+.wroc {
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute; 
+}
+.szcze {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.list {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.lista {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.zmian {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.media{
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 1%;
+    transform: translate(-5% , -1%);
+}
+.glowna {
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute;
+}
+.listzmian {
+    font-family: 'Pacifico';
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    transform: translate(-5%)
+}
+.fb {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-30% , -50%);
+}
+.github {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 35%;
+    left: 50.5%;
+    transform: translate(-40% , -50%);
+}
+.instagram {
+    text-align: center;
+    font-family: 'Pacifico';
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50.5%;
+    transform: translate(-40% , -50%);
+}
