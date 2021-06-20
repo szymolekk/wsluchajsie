@@ -8,13 +8,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-<div class='audio'>
-<audio controls autoplay style="margin: 0 auto; display: block;">
-    <source src="chill.mp3" type="audio/mpeg">
-</audio>
+<div class="js">
+<script>
+    var audio = document.getElementById('audio');
+    var isPlaying = false;
+
+    function toggleAudio() {
+        var audio = document.getElementById("audio"); 
+        var btn = document.getElementById('play-button');
+
+        if (isPlaying) {
+            audio.pause();
+            btn.innerHTML = 'Start';
+        }else {
+            audio.play();
+            btn.innerHTML = 'Zatrzymaj';
+        }
+        isPlaying = !isPlaying;
+    }
+    function forwardAudio() {
+        var audio = document.getElementById('audio');
+        audio.currentTime += 30.0;
+    }  
+</script>
+<audio id="audio" src="chill2.mp3"></audio>        
+</div>
+<div class="muzyczka">
+    <button id="play-button" onclick="toggleAudio()">Start</button>
+    <button onclick="forwardAudio()">Przewiń o 30 sekund</button>
 </div>
 <div class='tekst'>
-<h3>Wciśnij ten guzik i się zrelaksuj</h3>
+<h3>Wciśnij guzik start i się zrelaksuj</h3>
 </div>
 <div class='humor'>
 <h3>Miłego Dnia ッ</h3>
