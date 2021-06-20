@@ -263,3 +263,17 @@ animation: gradient 20s ease infinite;
   left: 50.5%;
   transform: translate(-40%, -50%);
 }
+
+.informacja {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 51.5%; 
+  left: 44.6%;
+  transform: translate();
+}
