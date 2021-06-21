@@ -72,6 +72,11 @@ animation: gradient 20s ease infinite;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .tworca {
