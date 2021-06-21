@@ -267,3 +267,11 @@ animation: gradient 15s ease infinite;
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.info {
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 45.4%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
