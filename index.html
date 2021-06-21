@@ -29,13 +29,18 @@
     function forwardAudio() {
         var audio = document.getElementById('audio');
         audio.currentTime += 30.0;
-    }  
+    }
+    function backwardAudio() {
+        var audio = document.getElementById('audio');
+        audio.currentTime -= 30.0;
+    }
     </script>
 <audio id="audio" src="chill2.mp3"></audio>        
 </div>
 <div class="muzyczka">
     <button id="play-button" onclick="toggleAudio()">Start</button>
     <button onclick="forwardAudio()">Przewiń o 30 sekund</button>
+    <button onclick="backwardAudio()">Cofnij o 30 sekund</button>
 </div>
 <div class='tekst'>
 <h3>Wciśnij guzik start i się zrelaksuj</h3>
