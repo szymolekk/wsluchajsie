@@ -268,3 +268,18 @@ animation: gradient 15s ease infinite;
   left: 50.5%;
   transform: translate(-40%, -50%);
 }
+.czasomierz {
+  text-align: center;
+  font-family: 'Space Grotesk';
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: flex;
+  margin: 0;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
