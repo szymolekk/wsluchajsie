@@ -5,7 +5,7 @@
 <title>Wsłuchaj Się</title>
 <link rel="stylesheet" href="style.css">
 <link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/multiple-musical-notes_1f3b6.png">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=0.69, user-scalable=no">
 </head>
 <body>
 <div class="js">
@@ -35,6 +35,21 @@
         audio.currentTime -= 30.0;
     }
     </script>
+    <script>
+        function timer() {
+            var audio = document.getElementById("audio");
+            var currentTime = parseFloat(audio.currentTime.toFixed(0));
+            document.getElementById("demo").innerHTML = currentTime;
+            }
+ 
+        function init() {
+            document.getElementById("audio").ontimeupdate = timer;
+            }
+ 
+window.onload = init;
+
+
+    </script>
 <audio id="audio" src="chill2.mp3"></audio>        
 </div>
 <div class="muzyczka">
@@ -56,6 +71,9 @@
 </div>
 <div class='linki'>
 <a href=linki.html>Linki</a>
+</div>
+<div class="czasomierz">
+    <p>Aktualny Czas : <span id="demo"></span> / 20834 sekund</p>
 </div>
 
 
