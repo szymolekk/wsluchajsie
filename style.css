@@ -1,15 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap");
 
 * {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
 }
-
-
-
 
 .tekst {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -24,25 +21,36 @@
 }
 
 @keyframes gradient {
- 0% {
-   background-position: 0%;
- }
- 50% {
-   background-position: 100%;
- }
- 100% {
-   background-position: 0%;
- }
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
 }
 
 body {
-background: linear-gradient(-45deg, #3f51b1 0% , #5a55ae 13% , #7b5fac 25% , #8f6aae 38% , #a86aa4 50% , #cc6b8e 62% , #f18271 75% , #f3a469 87% , #f7c978 100%);
-background-size: 400% 400%;
-animation: gradient 15s ease infinite;
+  background: linear-gradient(
+    -45deg,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
 }
 
 .humor {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -55,7 +63,20 @@ animation: gradient 15s ease infinite;
   transform: translate(-60%, -50%);
 }
 
-.muzyczka{background-image:linear-gradient(to right, #3f51b1 0% , #5a55ae 13% , #7b5fac 25% , #8f6aae 38% , #a86aa4 50% , #cc6b8e 62% , #f18271 75% , #f3a469 87% , #f7c978 100%)}
+.muzyczka {
+  background-image: linear-gradient(
+    to right,
+    #3f51b1 0%,
+    #5a55ae 13%,
+    #7b5fac 25%,
+    #8f6aae 38%,
+    #a86aa4 50%,
+    #cc6b8e 62%,
+    #f18271 75%,
+    #f3a469 87%,
+    #f7c978 100%
+  );
+}
 
 .muzyczka {
   margin: 0;
@@ -68,7 +89,7 @@ animation: gradient 15s ease infinite;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
-  color: white;            
+  color: white;
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
   display: block;
@@ -80,7 +101,7 @@ animation: gradient 15s ease infinite;
 }
 
 .tworca {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   position: absolute;
   top: 100%;
@@ -93,7 +114,7 @@ animation: gradient 15s ease infinite;
 }
 
 .zmiany a {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   position: absolute;
   color: black;
@@ -103,11 +124,10 @@ animation: gradient 15s ease infinite;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  
 }
 
 .wroc {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   position: absolute;
   -webkit-user-select: none;
@@ -119,7 +139,7 @@ animation: gradient 15s ease infinite;
 
 .szcze {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -135,7 +155,7 @@ animation: gradient 15s ease infinite;
 
 .list {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -151,7 +171,7 @@ animation: gradient 15s ease infinite;
 
 .lista {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -166,7 +186,7 @@ animation: gradient 15s ease infinite;
 }
 
 .linki a {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   position: absolute;
   top: 5%;
@@ -182,7 +202,7 @@ animation: gradient 15s ease infinite;
 }
 
 .glowna a {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   display: flex;
   position: absolute;
@@ -196,7 +216,7 @@ animation: gradient 15s ease infinite;
 }
 
 .listzmian a {
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   margin: 0;
   position: absolute;
   display: flex;
@@ -212,7 +232,7 @@ animation: gradient 15s ease infinite;
 
 .fb {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -228,7 +248,7 @@ animation: gradient 15s ease infinite;
 
 .github {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -244,7 +264,7 @@ animation: gradient 15s ease infinite;
 
 .instagram {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -259,7 +279,7 @@ animation: gradient 15s ease infinite;
 }
 .czasomierz {
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;
   -moz-user-select: none;
@@ -272,7 +292,6 @@ animation: gradient 15s ease infinite;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 
 .info {
   display: flex;
