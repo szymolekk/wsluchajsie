@@ -61,15 +61,10 @@ body {
 .muzyczka {
   background-image: linear-gradient(
     to right,
-    #3f51b1 0%,
-    #5a55ae 13%,
-    #7b5fac 25%,
-    #8f6aae 38%,
-    #a86aa4 50%,
-    #cc6b8e 62%,
-    #f18271 75%,
-    #f3a469 87%,
-    #f7c978 100%
+    #12c2e9 25%,
+    #c471ed 50%,
+    #f64f59 75%,
+    #8e2de2 100%
   );
 }
 
