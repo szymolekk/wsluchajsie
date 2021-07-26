@@ -1,91 +1,91 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Wsłuchaj Się</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      data-ad-client="ca-pub-8640348943201195"
+      async
+      src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
+    ></script>
+    <link
+      rel="icon"
+      href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/multiple-musical-notes_1f3b6.png"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=0.69, user-scalable=no"
+    />
+  </head>
+  <body>
+    <div class="muzyczka">
+      <button id="play-button" onclick="toggleAudio()">Start</button>
+      <button onclick="forwardAudio()">Przewiń o 30 sekund</button>
+      <button onclick="backwardAudio()">Cofnij o 30 sekund</button>
+    </div>
+    <div class="tekst">
+      <h3>Wciśnij guzik start i się zrelaksuj</h3>
+    </div>
+    <div class="humor">
+      <h3>Miłego Dnia ッ</h3>
+    </div>
+    <div class="tworca">
+      <h4>Szymon Woźniak 2021</h4>
+    </div>
+    <div class="zmiany">
+      <a href="zmiany.html">Lista Zmian</a>
+    </div>
+    <div class="linki">
+      <a href="linki.html">Linki</a>
+    </div>
+    <div class="czasomierz">
+      <p>Aktualny Czas : <span id="demo"></span> / 12016 sekund</p>
+    </div>
+    <div class="info">
+      <h5>Ostatnia Zmiana Muzyki 26.07.2021</h5>
+    </div>
 
-<head>
-<title>Wsłuchaj Się</title>
-<link rel="stylesheet" href="style.css">
-<script data-ad-client="ca-pub-8640348943201195" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<link rel="icon" href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/emojidex/112/multiple-musical-notes_1f3b6.png">
-<meta name="viewport" content="width=device-width, initial-scale=0.69, user-scalable=no">
-</head>
-<body>
-<div class="muzyczka">
-    <button id="play-button" onclick="toggleAudio()">Start</button>
-    <button onclick="forwardAudio()">Przewiń o 30 sekund</button>
-    <button onclick="backwardAudio()">Cofnij o 30 sekund</button>
-</div>
-<div class='tekst'>
-<h3>Wciśnij guzik start i się zrelaksuj</h3>
-</div>
-<div class='humor'>
-<h3>Miłego Dnia ッ</h3>
-</div>
-<div class='tworca'>
-<h4>Szymon Woźniak 2021</h4>
-</div>
-<div class='zmiany'>
-<a href='zmiany.html'>Lista Zmian</a>
-</div>
-<div class='linki'>
-<a href=linki.html>Linki</a>
-</div>
-<div class="czasomierz">
-    <p>Aktualny Czas : <span id="demo"></span> / 12016 sekund</p>
-</div>
-<div class="info">
-    <h5>Ostatnia Zmiana Muzyki 26.07.2021</h5>
-</div>
+    <div class="js">
+      <script>
+        var audio = document.getElementById("audio");
+        var isPlaying = false;
 
+        function toggleAudio() {
+          var audio = document.getElementById("audio");
+          var btn = document.getElementById("play-button");
 
-
-
-
-
-
-
-<div class="js">
-    <script>
-    var audio = document.getElementById('audio');
-    var isPlaying = false;
-
-    function toggleAudio() {
-        var audio = document.getElementById("audio"); 
-        var btn = document.getElementById('play-button');
-
-        if (isPlaying) {
+          if (isPlaying) {
             audio.pause();
-            btn.innerHTML = 'Start';
-        }else {
+            btn.innerHTML = "Start";
+          } else {
             audio.play();
-            btn.innerHTML = 'Zatrzymaj';
+            btn.innerHTML = "Zatrzymaj";
+          }
+          isPlaying = !isPlaying;
         }
-        isPlaying = !isPlaying;
-    }
-    function forwardAudio() {
-        var audio = document.getElementById('audio');
-        audio.currentTime += 30.0;
-    }
-    function backwardAudio() {
-        var audio = document.getElementById('audio');
-        audio.currentTime -= 30.0;
-    }
-    </script>
-    <script>
+        function forwardAudio() {
+          var audio = document.getElementById("audio");
+          audio.currentTime += 30.0;
+        }
+        function backwardAudio() {
+          var audio = document.getElementById("audio");
+          audio.currentTime -= 30.0;
+        }
+      </script>
+      <script>
         function timer() {
-            var audio = document.getElementById("audio");
-            var currentTime = parseFloat(audio.currentTime.toFixed(0));
-            document.getElementById("demo").innerHTML = currentTime;
-            }
- 
+          var audio = document.getElementById("audio");
+          var currentTime = parseFloat(audio.currentTime.toFixed(0));
+          document.getElementById("demo").innerHTML = currentTime;
+        }
+
         function init() {
-            document.getElementById("audio").ontimeupdate = timer;
-            }
- 
-window.onload = init;
+          document.getElementById("audio").ontimeupdate = timer;
+        }
 
-
-    </script>
-<audio id="audio" src="chill2.mp3"></audio>        
-</div>
-</body>
+        window.onload = init;
+      </script>
+      <audio id="audio" src="chill2.mp3"></audio>
+    </div>
+  </body>
 </html>
