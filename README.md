@@ -4,6 +4,6 @@ Wsluchajsie.xyz to moja strona internetowa. Tak wiem jest ona bardzo prosta lecz
 
 Mam nadzieję , że wam się spodoba.
 
+Aby strona działała do folderu należy wkleić plik o nazwie "chill2.mp3" w formacie.mp3
 
-Aby strona działała do folderu należy wkleić plik "chill2.mp3" w formacie.mp3
 # Miłego Dnia :)
