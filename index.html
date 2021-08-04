@@ -41,45 +41,7 @@
     </div>
 
     <div class="js">
-      <script>
-        var audio = document.getElementById("audio");
-        var isPlaying = false;
-
-        function toggleAudio() {
-          var audio = document.getElementById("audio");
-          var btn = document.getElementById("play-button");
-
-          if (isPlaying) {
-            audio.pause();
-            btn.innerHTML = "Start";
-          } else {
-            audio.play();
-            btn.innerHTML = "Zatrzymaj";
-          }
-          isPlaying = !isPlaying;
-        }
-        function forwardAudio() {
-          var audio = document.getElementById("audio");
-          audio.currentTime += 30.0;
-        }
-        function backwardAudio() {
-          var audio = document.getElementById("audio");
-          audio.currentTime -= 30.0;
-        }
-      </script>
-      <script>
-        function timer() {
-          var audio = document.getElementById("audio");
-          var currentTime = parseFloat(audio.currentTime.toFixed(0));
-          document.getElementById("demo").innerHTML = currentTime;
-        }
-
-        function init() {
-          document.getElementById("audio").ontimeupdate = timer;
-        }
-
-        window.onload = init;
-      </script>
+      <script src="script.js"></script>
       <audio id="audio" src="chill2.mp3"></audio>
     </div>
   </body>
