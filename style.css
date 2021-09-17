@@ -44,7 +44,7 @@ body {
   animation: gradient 15s ease infinite;
 }
 
-.humor {
+#humor {
   font-family: "Space Grotesk";
   -webkit-user-select: none;
   -webkit-touch-callout: none;

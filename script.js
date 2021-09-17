@@ -53,3 +53,23 @@ if (audio) {
 
   });
 }
+
+window.onload = ( function () {
+  getDataTime();
+  timer();
+})();
+
+function getDataTime() {
+  var now = new Date();
+  var hour = now.getHours();
+  if(hour >= 8) {
+    document.getElementById("humor").innerHTML = "Miłego Dnia ♡"
+    humor.style.left = "50%";
+  }
+  else {
+    if(hour <= 18) {
+      document.getElementById("humor").innerHTML = "Miłego Wieczoru ♡"
+      humor.style.left = "50%";
+    }
+  }
+}
